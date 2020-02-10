@@ -135,9 +135,9 @@ a {
 	left    : 20px;
 	bottom  : 0;
 	height  : 1px;
-	width   : 50%;  /* or 100px */
+	width   : 50%;  
 	border-bottom: 2px solid #0074E4;
-}
+} 
 .faq {
 	text-transform: uppercase;
 }
@@ -280,33 +280,35 @@ a {
 .secondary-title {
 	margin-bottom: 25%;
 }
-.final-title h2 {
+.final-title-main-heading {
 	color: #1D262C;
 	font-weight: 600;
 	font-size: 30px;
 	line-height: normal;
+	text-align: center;
 	text-transform: capitalize;
 }
-.final-title p {
+.final-title-sub-heading {
 	font-size: 15px;
-	width: 60%;
+	width: 40%;
+	text-align: center;
 	margin: 0 auto;
 	font-weight: normal;
 	line-height: 26px;
 	color: #71828A;
+	margin-bottom: 25px;
 }
 .final-title {
 	background-color: #F2F2F2;
-	padding-top: 10%;
-	text-align: center;
-	padding-bottom: 5px;
-	margin-bottom: 10px;
+	padding: 46px 0 20px;
+	/* margin-bottom: 10px; */
 }
 .be-at-peace h3 {
 	font-weight: 500;
 	font-size: 18px;
 	color: #1D262C;
 	line-height: normal;
+	margin: 15px 0;
 }
 .be-at-peace p {
 	font-weight: normal;
@@ -322,7 +324,7 @@ a {
 	display: flex;
 	margin: 0 auto;
 	justify-content: space-between;
-	padding-bottom: 10%;
+	padding-bottom: 5%;
 }
 .getting-started h2 {
 	font-weight: 600;
